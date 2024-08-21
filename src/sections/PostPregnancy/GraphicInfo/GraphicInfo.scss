@@ -1,0 +1,40 @@
+.post-graphic-info {
+  color: $heading-color;
+  @include padding-vertical(2, "rem");
+  border-top: 5px solid #f0f0f0;
+  @media #{$sm} {
+    padding-bottom: 1.5rem;
+    padding-top: 0.5rem;
+  }
+  @media #{$md} {
+    padding-bottom: 2rem;
+    padding-top: 0;
+  }
+  .inner-section {
+    // display: flex;
+    text-align: center;
+    @media #{$sm} {
+      margin-top: 1rem;
+    }
+    @media #{$md} {
+      margin-top: 2rem;
+    }
+    h5 {
+      color: $primary-color;
+    }
+    p {
+      height: 75px;
+      @media #{$sm} {
+        // margin-bottom: 0%;
+        height: auto;
+      }
+      @media #{$md} {
+        // margin-bottom: 0%;
+        height: 70px;
+      }
+    }
+    img {
+      width: 75%;
+    }
+  }
+}

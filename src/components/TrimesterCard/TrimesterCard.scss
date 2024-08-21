@@ -1,0 +1,30 @@
+.trimester-card {
+  border: none;
+  padding: 2rem 2rem;
+  color: $heading-color;
+  h3,
+  h4,
+  h5 {
+    color: $heading-color;
+    font-family: $noto;
+    margin-bottom: 1rem;
+    font-size: 24px;
+    @media #{$sm} {
+      text-align: left;
+    }
+  }
+  p {
+    color: $text-secondary;
+    font-family: $noto;
+    margin-bottom: 1rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    @media #{$sm} {
+      text-align: justify;
+    }
+  }
+  @media #{$xsm} {
+    padding: 0.5rem;
+  }
+}

@@ -1,0 +1,62 @@
+.subsidiaries-section {
+  padding-top: 2rem;
+  @media #{$sm} {
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+  }
+  h3 {
+    color: $heading-color;
+    font-family: $noto;
+    padding-bottom: 0.25rem;
+    border-bottom: 3px solid $primary-color;
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-weight: normal;
+    @media #{$sm} {
+      margin-bottom: 0rem;
+    }
+  }
+  .content-wrap {
+    h5 {
+      background: #e5e5e5;
+      padding: 0.5rem;
+      font-size: 18px;
+
+      color: $heading-color;
+      font-family: $noto;
+      margin: 1rem 0rem 1rem 0rem;
+      font-weight: normal;
+      @media #{$sm} {
+        margin: 1.5rem 0rem 1.5rem 0rem;
+      }
+    }
+    table {
+      border-collapse: collapse;
+      margin: 2rem 0rem;
+      width: 100%;
+      @media #{$sm} {
+        margin: 0rem 0;
+      }
+      td {
+        border: 1px solid #999;
+        padding: 1rem;
+        text-align: left;
+        color: $text-secondary;
+        // padding-right: 4rem;
+        a {
+          cursor: pointer;
+          &:hover {
+            color: $primary-color;
+          }
+        }
+        ul {
+          list-style-type: none;
+          padding: 0rem;
+          li {
+            margin-bottom: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}

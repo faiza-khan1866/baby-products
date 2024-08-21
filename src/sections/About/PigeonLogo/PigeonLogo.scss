@@ -1,0 +1,60 @@
+.pigeon-logo-tab {
+  padding-top: 2rem;
+  color: $heading-color;
+  font-family: $noto;
+  @media #{$sm} {
+    padding-top: 1.6rem;
+  }
+  .section-title-underlined {
+    // padding-bottom: 1.5rem;
+    @media #{$sm} {
+      // padding-bottom: 1rem;
+    }
+    h2 {
+      // font-weight: 500;
+      font-family: $noto;
+      color: $heading-color;
+      display: inline-block;
+      position: relative;
+      font-size: 32px;
+      font-weight: normal;
+      margin-bottom: 0.67em;
+      border-bottom: 3px solid $primary-color;
+      display: inline-block;
+      padding-bottom: 0.25rem;
+      &::after {
+        display: none;
+        // content: "";
+        // position: absolute;
+        // transform: translate(-115%, 1400%);
+        // width: 75%;
+        // border-bottom: 4px solid $primary-color;
+      }
+      @media #{$sm} {
+        font-size: 28px;
+        font-weight: 500;
+        // &::after {
+        //   transform: translate(-115%, 1300%);
+        // }
+      }
+    }
+  }
+  .content {
+    p {
+      line-height: 1.75rem;
+    }
+    @media #{$sm} {
+      text-align: justify;
+      margin-bottom: 0.5rem;
+    }
+  }
+  .logo {
+    width: 200px;
+    @media #{$sm} {
+      width: 200px;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+.checkout-container {
+  .section-title-underlined {
+    margin-bottom: 50px;
+
+    h1 {
+      border-bottom: 3px solid #e65550;
+      width: max-content;
+      padding-bottom: 10px;
+    }
+  }
+}
+
+.padding0 {
+  padding: 0;
+}
+
+.promoCodeLabel {
+  font-weight: bold;
+}
+.loginCheckout {
+  padding: 0.5rem 0.2rem !important;
+  color: #e65550;
+  cursor: pointer;
+}
+.loginCheckout:hover {
+  color: #e65550;
+}
+.toUsePromo {
+  padding: 0.5rem 0.2rem !important;
+}

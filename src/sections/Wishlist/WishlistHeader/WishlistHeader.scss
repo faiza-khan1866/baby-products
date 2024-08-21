@@ -1,0 +1,33 @@
+.wishlist-page {
+  font-family: $noto;
+  color: $heading-color;
+  min-height: 50vh;
+  .wishlist-header {
+    padding: 1rem 0;
+    .section-title-underlined {
+      // padding-bottom: 2rem;
+      h1 {
+        // font-weight: 600;
+        font-family: $noto;
+        color: $heading-color;
+        display: inline-block;
+        position: relative;
+        font-size: 36px;
+        border-bottom: 3px solid $primary-color;
+        padding-bottom: 0.25rem;
+        // &::after {
+        //   content: "";
+        //   position: absolute;
+        //   transform: translate(-115%, 1300%);
+        //   width: 75%;
+        //   border-bottom: 4px solid $primary-color;
+        //   z-index: -1;
+        // }
+        @media #{$sm} {
+          font-size: 28px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}

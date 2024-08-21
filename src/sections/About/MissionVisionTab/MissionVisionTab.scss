@@ -1,0 +1,75 @@
+.mission-vision-tab {
+  padding-top: 2rem;
+  color: $heading-color;
+  font-family: $noto;
+  position: relative;
+  @media #{$sm} {
+    padding-top: 1.6rem;
+  }
+  .section-title-underlined {
+    // padding-bottom: 1.5rem;
+    h2 {
+      // font-weight: 500;
+      font-family: $noto;
+      color: $heading-color;
+      display: inline-block;
+      position: relative;
+      font-size: 32px;
+      margin-bottom: 0.67em;
+      font-weight: normal;
+      border-bottom: 3px solid $primary-color;
+      padding-bottom: 0.25rem;
+
+      &::after {
+        display: none;
+        // content: "";
+        // position: absolute;
+        // transform: translate(-115%, 1400%);
+        // width: 75%;
+        // border-bottom: 4px solid $primary-color;
+      }
+      @media #{$sm} {
+        font-size: 28px;
+        font-weight: 500;
+        // &::after {
+        //   transform: translate(-115%, 1300%);
+        // }
+      }
+    }
+  }
+  .vision,
+  .mission {
+    p {
+      line-height: 1.75rem;
+      // font-weight: 400;
+      margin-top: 1rem;
+      @media #{$sm} {
+        text-align: justify;
+        margin-top: 0rem;
+      }
+    }
+    h4,
+    h2 {
+      font-size: 32px;
+      color: $primary-color;
+      // border-bottom: 3px solid $primary-color;
+      display: inline-block;
+      padding-bottom: 0.25rem;
+      @media #{$sm} {
+        font-size: 20px;
+      }
+    }
+  }
+  // &::before {
+  //   content: "";
+  //   background-image: url(./../../../assets/images/shapes/yellowcircle.svg);
+  //   background-size: 100%;
+  //   width: 200px;
+  //   height: 200px;
+  //   position: absolute;
+  //   left: 50%;
+  //   transform: translateX(-50%);
+  //   top: 25%;
+  //   background-position: center;
+  // }
+}

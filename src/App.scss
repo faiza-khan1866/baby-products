@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;600;700;900&display=swap");
+// @font-face {
+//   font-family: "Noto Sans JP";
+//   font-style: normal;
+//   font-display: swap;
+//   src: local("Noto Sans JP"), local("Noto Sans JP"),
+//     url("./assets/font/NotoSansJP-Medium.otf") format("otf");
+// }
+@import url("https://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css");
+@import "~bootstrap/scss/bootstrap";
+@import "./styles/variables";
+@import "./styles/mixins";
+@import "node_modules/react-modal-video/scss/modal-video.scss";
+@import "~react-image-gallery/styles/scss/image-gallery.scss";
+@import "~video-react/styles/scss/video-react";
+
+//layouts
+@import "./layouts/Layout.scss";
+@import "./layouts/Navbar/Navbar.scss";
+@import "./layouts/Footer/Footer.scss";
+
+//components
+@import "./components/ButtonTheme/ButtonTheme.scss";
+@import "./components/MainTitle/MainTitle.scss";
+@import "./components/ProductItem/ProductItem.scss";
+@import "./components/PromoItem/PromoItem.scss";
+@import "./components/GridItem/GridItem.scss";
+@import "./components/BreadCrumbs/BreadCrumbs.scss";
+@import "./components/BottomTabNavigator/BottomTabNavigator.scss";
+@import "./components/ReviewCard/ReviewCard.scss";
+@import "./components/LocationCard/LocationCard.scss";
+@import "./components/WishlistCard/WishlistCard.scss";
+@import "./components/Modals/Login/Login.scss";
+@import "./components/Modals/Register/Register.scss";
+@import "./components/VideoItem/VideoItem.scss";
+@import "./components/MonthTab/MonthTab.scss";
+@import "./components/AccordionItem/AccordionItem.scss";
+@import "./components/BabyCareTab/BabyCareTab.scss";
+@import "./components/TrimesterCard/TrimesterCard.scss";
+@import "./components/SimpleButton/SimpleButton.scss";
+@import "./components/Searchbar/Searchbar.scss";
+@import "./components/Modals/Review/Review.scss";
+
+// sections **********************
+
+//home sections
+@import "./sections/Home/Slider/Slider.scss";
+@import "./sections/Home/Welcome/Welcome.scss";
+@import "./sections/Home/ImageMenu/ImageMenu.scss";
+@import "./sections/Home/ProductsGrid/ProductsGrid.scss";
+@import "./sections/Home/PromoBanner/PromoBanner.scss";
+@import "./sections/Home/ProductSlider/ProductSlider.scss";
+
+//products sections
+@import "./sections/Products/VideoSection/VideoSection.scss";
+@import "./sections/Products/RelatedArticle/RelatedArticle.scss";
+@import "./sections/Products/OurProduct/OurProduct.scss";
+@import "./sections/Products//ProductDetails/ProductDetails.scss";
+@import "./sections/Products/Help/Help.scss";
+@import "./sections/Products/ProductGrid/ProductGrid.scss";
+@import "./sections/Products/ProductHeader/ProductHeader.scss";
+@import "./sections/Products/Filters/Filters.scss";
+
+// product details sections
+@import "./sections/ProductDetails/Overview/Overview.scss";
+@import "./sections/ProductDetails/FeaturesTabs/FeatureTabs.scss";
+@import "./sections/ProductDetails/RecommendedSlider/RecommendedSlider.scss";
+@import "./sections/ProductDetails/ProductReviews/ProductReviews.scss";
+
+//about-us sections
+@import "./sections/About/AboutTabsContainer/AboutTabsContainer.scss";
+@import "./sections/About/AboutUsTab/AboutUsTab.scss";
+@import "./sections/About/PigeonWayTab/PigeonWayTab.scss";
+@import "./sections/About/MissionVisionTab/MissionVisionTab.scss";
+@import "./sections/About/PigeonLogo/PigeonLogo.scss";
+@import "./sections/About/TopMessageTab/TopMessage.scss";
+
+//mother & baby world sections
+@import "./sections/MotherBabyWorld/QuestionsAndAnswers/QuestionsAndAnswers.scss";
+@import "./sections/MotherBabyWorld/BabyCare/BabyCare.scss";
+@import "./sections/MotherBabyWorld/Pregnancy/Pregnancy.scss";
+
+//good-to-know
+@import "./sections/GoodToKnow/GoodToKnowCard/GoodToKnowCard.scss";
+@import "./sections/GoodToKnow/SkinCycle/SkinCycle.scss";
+@import "./sections/GoodToKnow/Sickness/Sickness.scss";
+@import "./sections/GoodToKnow/Stretchmarks/Stretchmarks.scss";
+@import "./sections/GoodToKnow/BreastGrowth/BreastGrowth.scss";
+
+//breastfeeding-advisor
+@import "./sections/BreastFeedingAdvisor/MilkDrinks/MilkDrinks.scss";
+@import "./sections/BreastFeedingAdvisor/FeedbackForm/FeedbackForm.scss";
+@import "./sections/BreastFeedingAdvisor/MoreDetails/MoreDetails.scss";
+@import "./sections/BreastFeedingAdvisor/AdvisorCategoryGrid/AdvisorCategoryGrid.scss";
+
+//blog section
+@import "./sections/Blog/BlogCategoryGrid/BlogCategoryGrid.scss";
+@import "./sections/Blog/BlogItemDetails/BlogItemDetails.scss";
+
+//contact-us sections
+@import "./sections/Contact/ContactForm/ContactForm.scss";
+@import "./sections/Contact/OfficeInfo/OfficeInfo.scss";
+
+//videos section
+@import "./sections/VideoGrid/VideoGrid.scss";
+
+//FAQ section
+@import "./sections/FAQList/FAQList.scss";
+
+//wishlist sections
+@import "./sections/Wishlist/WishlistHeader/WishlistHeader.scss";
+@import "./sections/Wishlist/WishlistGrid/WishlistGrid.scss";
+
+//user-profile sections
+@import "./sections/UserProfile/ProfileTabContainer/ProfileTabContainer.scss";
+
+//pregnancy sections
+@import "./sections/Pregnancy/PregnancyTabContainer/PregnancyTabContainer.scss";
+@import "./sections/Pregnancy/MonthOne/MonthOne.scss";
+@import "./sections/Pregnancy/Trimester/FirstTrimester/FirstTrimester.scss";
+@import "./sections/Pregnancy/Trimester/SecondTrimester/SecondTrimester.scss";
+@import "./sections/Pregnancy/Trimester/ThirdTrimester/ThirdTrimester.scss";
+
+//post-pregnancy sections
+@import "./sections/PostPregnancy/PregnancyHeader/PostPregnancyHeader.scss";
+@import "./sections/PostPregnancy/PostPregnancyTabContainer/PostPregnancyTabContainer.scss";
+@import "./sections/PostPregnancy/GraphicInfo/GraphicInfo.scss";
+
+//baby-care sections
+@import "./sections/BabyCare/BabyCareTabContainer/BabyCareTabContainer.scss";
+
+//first-time-father sections
+@import "./sections/FirstTimeFather/FirstTrimester/FirstTrimester.scss";
+@import "./sections/FirstTimeFather/SecondTrimester/SecondTrimester.scss";
+@import "./sections/FirstTimeFather/ThirdTrimester/ThirdTrimester.scss";
+@import "./sections/FirstTimeFather/FatherCommunicate/FatherCommunicate.scss";
+
+//policies sections
+@import "./sections/Policies/DisclosurePolicy/DisclosurePolicy.scss";
+@import "./sections/Policies/PrivacyProtection/PrivacyProtection.scss";
+@import "./sections/Policies/SocialMediaPolicy/SocialMediaPolicy.scss";
+@import "./sections/Policies/TermsOfUse/TermsOfUse.scss";
+
+// official-social-media section
+@import "./sections/OfficialSocialMedia/OfficialSocialMedia.scss";
+
+//Subsidiaries section
+@import "./sections/Subsidiaries/Subsidiaries.scss";
+
+//sitemap section
+@import "./sections/Sitemap/Sitemap.scss";
+
+// error404 section
+@import "./sections/Error404/error";
+
+// ********************** sections
+//global setting
+body {
+  font-family: $noto !important;
+  color: $heading-color;
+}
+
+.first-time-father-heading {
+  border-bottom: 3px solid $primary-color;
+  display: inline-block;
+  padding-bottom: 0.25rem;
+  font-size: 36px;
+  font-family: $noto;
+  color: $heading-color;
+  margin: 0%;
+  font-weight: normal;
+  margin-top: 2rem;
+  @media #{$sm} {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+}
+
+.arabic-direction {
+  body,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  li,
+  a,
+  span,
+  div,
+  button,
+  input,
+  textarea,
+  label {
+    font-family: $arabic-font !important;
+  }
+
+  .m-btn-simple span::after {
+    left: 18px;
+    transform: scaleX(-1);
+    right: auto;
+  }
+}
+
+.noteStyle {
+  font-weight: bold;
+  text-decoration: underline;
+}
+.listStyle {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.emailToStyle {
+  cursor: "pointer" !important;
+  font-weight: bold !important;
+}
+
+.emailToStyle:hover {
+  cursor: pointer !important;
+  text-decoration: underline !important;
+}
+.ltrDirection {
+  direction: ltr !important;
+}

@@ -1,0 +1,39 @@
+.video-item-wrap {
+  text-align: center;
+  width: 100%;
+  margin-bottom: 1rem;
+
+  .wrap-iframe {
+    position: relative;
+    height: 200px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 6px;
+    overflow: hidden;
+
+    @media #{$md} {
+      height: 140px;
+    }
+
+    .empty-div {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0%;
+      z-index: 11;
+    }
+
+    .video-ifram {
+      // border-radius: 10px
+      // border: 2px solid red;
+    }
+  }
+
+  h6 {
+    color: $heading-color;
+    font-family: $noto;
+    margin-top: 1.5rem;
+    font-weight: normal;
+    // cursor: pointer;
+  }
+}

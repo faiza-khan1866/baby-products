@@ -1,0 +1,40 @@
+.month-tab {
+  @media #{$sm} {
+    text-align: justify;
+  }
+  .image-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    .first-image {
+      width: 95%;
+      // padding: 0 1rem;
+    }
+  }
+  h2 {
+    border-bottom: 3px solid $primary-color;
+    padding-bottom: 0.25rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    @media #{$sm} {
+      margin-bottom: 1rem;
+      margin-top: 1rem;
+      font-size: 28px;
+      font-weight: 500;
+    }
+  }
+  .detailed-content {
+    margin-top: 2rem;
+    h4 {
+      color: $primary-color;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.terms-of-use-section {
+  padding: 2rem 0rem;
+  @media #{$sm} {
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+  }
+  .content-wrap {
+    h5 {
+      background: #e5e5e5;
+      padding: 0.5rem;
+      color: $heading-color;
+      font-family: $noto;
+      margin: 1rem 0rem;
+      font-weight: normal;
+      font-size: 18px;
+    }
+    p {
+      color: $text-secondary;
+      font-family: $noto;
+      margin-bottom: 0%;
+      @media #{$sm} {
+        text-align: justify;
+      }
+    }
+  }
+}

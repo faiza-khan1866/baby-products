@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-color    : #f0f0f0 !important; */
+  padding-top            : 72px;
+}
+
+body .arabic-direction {
+  font-family: "Droid Arabic Naskh", serif !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  margin: 0.67rem 0;
+}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width : 1200px) {
+
+  /* STYLES GO HERE */
+  .navbar-wrap .navbar .navbar-brand {
+    width: 130px !important;
+  }
+
+  .navbar-expand-lg .navbar-nav {
+    margin-left : 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .navbar-wrap .navbar .nav-link {
+    font-size: 10px !important;
+    padding  : 5px !important;
+  }
+
+  .btn-sm,
+  .btn-group-sm>.btn {
+    padding  : 5px !important;
+    font-size: 13px !important;
+  }
+
+  .navbar-icons svg {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width : 767px) {
+  p {
+    font-size: 15px !important;
+  }
+
+  /* nav.navbar.navbar-expand-lg.navbar-light.bg-light.fixed-top {
+    right     : 145px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+  } */
+}
+
+/* Product Main Listing */
+@media (max-width: 767px) {
+  .product-grid-filters select {
+    width: 100% !important;
+  }
+}

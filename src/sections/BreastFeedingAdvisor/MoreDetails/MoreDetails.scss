@@ -1,0 +1,137 @@
+.more-details-section {
+  .links-wrap {
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+    @media #{$sm} {
+      padding-bottom: 1.5rem;
+      padding-top: 0.5rem;
+    }
+    a {
+      color: $primary-color;
+      text-decoration: none;
+      display: inline-flex;
+      justify-content: space-between;
+      align-items: center;
+      &:hover {
+        color: $white;
+      }
+      .icon {
+        font-size: 20px;
+      }
+    }
+  }
+  .article-button-wrap {
+    width: 50%;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+    @media #{$sm} {
+      width: 100%;
+      padding: 1%;
+      flex-wrap: wrap;
+      margin-top: 0rem;
+      margin-bottom: 0.5rem;
+    }
+    .facebook-button {
+      background-color: #0c90f2;
+      border-radius: 0%;
+      font-size: 12px;
+      // min-width: 22%;
+      width: 115px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border: none;
+      @media #{$sm} {
+        padding: 0.8rem;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+      .facebook-icon {
+        font-size: 16px;
+      }
+      &:focus {
+        text-decoration: none;
+        outline: none;
+        box-shadow: none;
+      }
+    }
+    .twitter-button {
+      background-color: #1da1f1;
+      border-radius: 0%;
+      font-size: 12px;
+      width: 115px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-color: #1da1f1;
+      @media #{$sm} {
+        padding: 0.8rem;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+      .twitter-icon {
+        font-size: 16px;
+      }
+    }
+    .print-button {
+      background-color: #0b65c2;
+      border-radius: 0%;
+      font-size: 12px;
+      width: 115px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      border-color: #0b65c2;
+      @media #{$sm} {
+        padding: 0.8rem;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+      .print-icon {
+        font-size: 16px;
+      }
+    }
+    .print-button {
+      .pinterest-icon {
+        background-color: #e70a26;
+        border-color: #e70a26;
+      }
+    }
+    .more-button {
+      background-color: #ff634f;
+      border-radius: 0%;
+      font-size: 12px;
+      width: 115px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-color: #ff634f;
+      @media #{$sm} {
+        padding: 0.8rem;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+      }
+      .more-icon {
+        font-size: 16px;
+      }
+    }
+    @media #{$md} {
+      width: 70%;
+    }
+  }
+  a:focus,
+  input:focus,
+  textarea:focus,
+  button:focus,
+  .btn:focus {
+    text-decoration: none;
+    outline: none;
+    box-shadow: none;
+  }
+}

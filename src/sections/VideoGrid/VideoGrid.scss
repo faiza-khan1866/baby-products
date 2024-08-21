@@ -1,0 +1,60 @@
+.videos-section {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  h1 {
+    font-size: 36px;
+    border-bottom: 3px solid $primary-color;
+    padding-bottom: 0.25rem;
+    display: inline-block;
+    color: $heading-color;
+    font-family: $noto;
+    margin: 0%;
+    margin-bottom: 2rem;
+    font-weight: normal;
+    @media #{$sm} {
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+  }
+  @media #{$sm} {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+
+.filterCategoryBtn {
+  padding: 15px;
+  margin: 10px;
+  border: 1px solid #e65550;
+  text-align: center;
+  color: #e65550 !important;
+  // position: relative;
+  transition: all 0.3s ease;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+  width: auto;
+  font-size: 15px;
+}
+
+.filterCategoryBtn:hover {
+  color: white !important;
+  background-color: #e65550 !important;
+  border:#e65550 !important;
+}
+
+.filterCategoryBtn.active { 
+  
+  color: white !important;
+  background-color: #e65550 !important;
+  border:#e65550 !important;
+ }
+
+ .Videos-buttons-wrapper {
+  justify-content: center;
+}
+.Videos-buttons-wrapper button {
+  padding: 0.6rem !important;
+}

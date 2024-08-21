@@ -1,0 +1,17 @@
+.payment-container {
+    .row {
+        margin-bottom: 30px;
+    }
+
+    button.btn-theme {
+        background-color: #e65550;
+        color           : #ffffff;
+        font-weight     : 700;
+        width           : 180px;
+        box-shadow      : 0px 2px 5px #bbb;
+        text-transform  : capitalize;
+        margin-right    : 4%;
+        border          : 2px solid #e65550;
+    }
+
+}

@@ -1,0 +1,216 @@
+.cart-list {
+  padding-right: 30px;
+
+  .row {
+    margin-bottom: 30px;
+  }
+
+  .list_box {
+    .row {
+      padding-bottom: 30px;
+      border-bottom: 2px solid #eee;
+    }
+
+    .row:last-child {
+      border-bottom: none;
+    }
+
+    .product_qyt {
+      text-align: center;
+    }
+  }
+
+  .product_img {
+    border: 1px solid #eee;
+    border-radius: 11px;
+    padding: 10px;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .cart_list_detail {
+    h2 {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .cart_list_price {
+      font-size: 17px !important;
+      font-weight: 500;
+      // padding-bottom: 50px !important;
+
+      span {
+        color: #ccc;
+        text-decoration: line-through;
+        text-decoration-thickness: 2px;
+        margin-left: 10px;
+        font-size: 14px !important;
+      }
+    }
+
+    button {
+      background-color: #e65550;
+      color: #ffffff;
+      font-weight: 700;
+      width: 180px;
+      box-shadow: 0px 2px 5px #bbb;
+      text-transform: capitalize;
+      margin-right: 4%;
+      border: 2px solid #e65550;
+      position: absolute;
+      bottom: 10px;
+    }
+
+    button.btn-theme.outline-bg.buy-now-btn.buy_cart.btn.btn-outline-undefined {
+      right: 0;
+    }
+  }
+
+  .order_action_div {
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 20px;
+
+    button {
+      background-color: #e65550;
+      color: #ffffff;
+      font-weight: 700;
+      width: 45%;
+      box-shadow: 0px 2px 5px #bbb;
+      text-transform: capitalize;
+      margin: 0 2.5%;
+      float: left;
+      border: 2px solid #e65550;
+    }
+  }
+
+  button.quantity-input__modifier.quantity-input__modifier--right {
+    width: auto;
+    margin-right: 0;
+  }
+
+  button.quantity-input__modifier.quantity-input__modifier--left {
+    width: auto;
+  }
+
+  button.btn-theme.outline-bg.buy-now-btn.btn svg {
+    margin-left: 10px;
+  }
+
+  button.btn-theme.outline-bg.buy-now-btn.save_btn svg {
+    color: #fff;
+  }
+}
+
+.quantity-input input.quantity-input__screen {
+  border: 1px solid #ced4da;
+  padding: 2.5px 0;
+  border-left: unset;
+  border-right: 0;
+  height: 38px;
+  width: 62%;
+}
+.product_qyt_margin {
+  margin-top: 10px !important;
+}
+
+.arabic-direction .cartlistButtons {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.arabic-direction .wishlist-card .remove-icon {
+  left: -12px !important;
+  right: unset !important;
+}
+
+.colorDecorationDiv {
+  display: flex;
+  flex-direction: row;
+  column-gap: 50px;
+}
+.product_img_cart {
+  min-height: 150px !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+@media (max-width:1199px) {
+    .wishlistBtn {
+
+    }
+    .romeveBtn {
+      right: 170px !important;
+    }
+}
+@media (max-width:991px) {
+    .wishlistBtn {
+
+    }
+    .romeveBtn {
+      right: 20px !important;
+    }
+}
+@media (max-width:768px) {
+  .quantity-input {
+    margin: 15px !important;
+  }
+  .productdetailsAndBtns {
+    padding: 10px !important;
+  }
+  .cartlistButtons {
+    display: flex;
+    flex-flow: wrap;
+    column-gap: 15px;
+  }
+  .wishlistBtn, .romeveBtn {
+    position: unset !important;
+  }
+  .cart-list {
+    padding-right: 0px !important;
+  }
+  
+  .cart_list_detail {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+}
+@media (max-width:474px) {
+  
+  .wishlistBtn, .romeveBtn {
+    width: 100% !important;
+    margin-bottom: 2% !important;
+    margin-right: 0 !important;
+  }
+  .cart-list {
+    padding-right: 0px !important;
+  }
+  .cart_list_detail {
+    padding-right: 5% !important;
+    padding-left: 5% !important;
+  }
+  .order_action_div {
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 0 !important;
+    border: unset !important;
+    
+  }
+  .placeOrderBtn {
+    margin: 0 !important;
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+}
+.emptyCart {
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 50px;
+}

@@ -1,0 +1,62 @@
+// .modelForOrder {
+//     .modal-dialog-centered {
+//         @media (min-width:992px) {
+//             max-width: 900px !important;
+//         }
+
+//     }
+// }
+
+// .modelForOrder div:first-child {
+//
+
+.modelForOrder .modal-dialog-centered {
+  max-width: 1000px !important;
+}
+
+.orderdetailModelheader {
+  padding: 1rem !important;
+  
+}
+.modelForOrderAr {
+  .close {
+    margin: -1rem 0rem 0rem 0rem !important;
+  }
+}
+
+.orderdetailModelBody {
+  padding: 2rem !important;
+}
+.modal-content {
+  background-color: #fff !important;
+}
+.orderdetailImg {
+  width: 20%;
+}
+.orderDetailModelTableBody {
+  color: #777;
+}
+
+.td_productImg {
+  width: 20%;
+}
+.productNameStyle {
+  margin-right: 5px !important;
+}
+.modelForOrderAr {
+  direction: rtl;
+  text-align: right;
+}
+
+@media (max-width:768px) {
+  .orderdetailImg {
+    width: 60%;
+  }
+  .tableScroll {
+    overflow-x: scroll;
+  }
+}
+
+.h6title {
+  font-weight: bold;
+}

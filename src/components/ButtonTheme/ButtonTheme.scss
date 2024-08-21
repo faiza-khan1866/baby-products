@@ -1,0 +1,26 @@
+.btn-theme {
+  &.btn-outline-primary {
+    color: $mandy;
+    border-color: $mandy;
+    border-radius: 0;
+    &:hover {
+      color: #fff;
+      background-color: $mandy;
+      border-color: $mandy;
+    }
+  }
+  &.btn-primary {
+    color: $white;
+    border-color: $mandy;
+    border-radius: 0;
+    background-color: $mandy;
+    &:hover {
+      color: #fff;
+      background-color: $mandy;
+      border-color: $mandy;
+    }
+  }
+  &:focus {
+    box-shadow: none;
+  }
+}

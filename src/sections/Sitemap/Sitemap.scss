@@ -1,0 +1,49 @@
+.sitemap-section {
+  padding: 2rem 0rem;
+  @media #{$sm} {
+    padding-top: 1.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .section-wrap {
+    margin-bottom: 2rem;
+    // border-bottom: 2px solid #f0f0f0;
+    h5 {
+      color: $heading-color;
+      font-family: $noto;
+      padding-bottom: 0.25rem;
+      font-weight: 600;
+      // border-bottom: 3px solid $primary-color;
+      // display: inline-block;
+      border-bottom: 2px solid #f0f0f0;
+      // margin-bottom: 0rem;
+      // font-weight: normal;
+      font-size: 18px;
+      a {
+        color: $heading-color;
+        .icon {
+          color: $primary-color;
+          font-size: 20px;
+          margin-left: 0.3rem;
+        }
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+    .inner-links-wrap {
+      a {
+        color: $heading-color;
+        margin-bottom: 1rem;
+        .icon {
+          margin-left: 0.3rem;
+          margin-bottom: 0.1rem !important;
+          color: $primary-color;
+          font-size: 17px;
+        }
+        &:hover {
+          color: $primary-color;
+        }
+      }
+    }
+  }
+}

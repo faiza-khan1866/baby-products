@@ -1,0 +1,88 @@
+.social-media-policy-page {
+  .social-media-policy-section {
+    padding: 2rem 0rem;
+    @media #{$sm} {
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+    }
+    .content-wrap {
+      h3,
+      h4 {
+        color: $heading-color;
+        font-family: $noto;
+        padding-bottom: 0.25rem;
+        border-bottom: 3px solid $primary-color;
+        display: inline-block;
+        margin-bottom: 1rem;
+        font-weight: normal;
+        font-size: 20px;
+      }
+      p {
+        color: $text-secondary;
+        font-family: $noto;
+        @media #{$sm} {
+          text-align: justify;
+        }
+      }
+      ul {
+        margin-bottom: 1rem;
+        list-style-type: none;
+        padding-left: 0;
+        @media #{$sm} {
+          text-align: justify;
+        }
+        li {
+          display: flex;
+          align-items: baseline;
+          color: $text-secondary;
+          font-family: $noto;
+          padding-left: 2px;
+          &::before {
+            content: "\2713";
+            color: $white;
+            font-size: 10px;
+            font-weight: bold;
+            text-align: center;
+            margin-right: 0.5rem;
+            padding: 0.25rem 0.25rem;
+            background-color: $primary-color;
+            border-radius: 41% 59% 44% 63% / 43% 43% 57% 57%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 15px;
+            height: 15px;
+          }
+        }
+      }
+      section {
+        text-align: end;
+        @media #{$sm} {
+          margin-bottom: 1rem;
+        }
+        span {
+          color: $text-secondary;
+        }
+      }
+    }
+    .social-media-link-wrap {
+      a {
+        color: $text-secondary;
+        &:hover {
+          color: $primary-color;
+        }
+      }
+      .icon {
+        color: $primary-color;
+        font-size: 20px;
+        margin-left: 0.3rem;
+        margin-bottom: 0.2rem;
+        cursor: pointer;
+        transition: width 0.5s;
+        &:hover {
+          width: 25px;
+        }
+      }
+    }
+  }
+}

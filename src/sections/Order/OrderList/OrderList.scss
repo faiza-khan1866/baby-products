@@ -1,0 +1,137 @@
+.order-list {
+  padding-right: 30px;
+
+  .row {
+    margin-bottom: 30px;
+  }
+
+  .list_box {
+    Table {
+      tbody {
+        tr {
+          td {
+            color: #666;
+
+            img {
+              border: 1px solid #eee;
+              border-radius: 11px;
+              padding: 10px;
+            }
+
+            p.status_green {
+              color: green;
+            }
+
+            p.status_red {
+              color: #e65550;
+            }
+          }
+
+          .td_product {
+            h2 {
+              font-size: 18px;
+              padding-bottom: 8px;
+            }
+
+            span {
+              font-size: 13px;
+              margin-bottom: 8px;
+              display: inline-block;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .cart_list_detail {
+    h2 {
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+
+    .cart_list_price {
+      font-size: 17px !important;
+      font-weight: 500;
+
+      span {
+        color: #ccc;
+        text-decoration: line-through;
+        text-decoration-thickness: 2px;
+        margin-left: 10px;
+        font-size: 14px !important;
+      }
+    }
+
+    button {
+      background-color: #e65550;
+      color: #ffffff;
+      font-weight: 700;
+      width: 180px;
+      box-shadow: 0px 2px 5px #bbb;
+      text-transform: capitalize;
+      margin-right: 4%;
+      border: 2px solid #e65550;
+    }
+
+    button.quantity-input__modifier.quantity-input__modifier--right {
+      width: auto;
+      margin-right: 0;
+    }
+
+    button.quantity-input__modifier.quantity-input__modifier--left {
+      width: auto;
+    }
+
+    button.btn-theme.outline-bg.buy-now-btn.btn svg {
+      margin-left: 10px;
+    }
+
+    button.btn-theme.outline-bg.buy-now-btn.save_btn svg {
+      color: #fff;
+    }
+  }
+
+  .order_action_div {
+    width: 100%;
+    border: 1px solid #eee;
+    padding: 20px;
+
+    button {
+      background-color: #e65550;
+      color: #ffffff;
+      font-weight: 700;
+      width: 45%;
+      box-shadow: 0px 2px 5px #bbb;
+      text-transform: capitalize;
+      margin: 0 2.5%;
+      float: left;
+    }
+  }
+}
+
+.quantity-input input.quantity-input__screen {
+  border: 2px solid #e65550;
+}
+.action-icon-details {
+  cursor: pointer;
+  color: #e65550;
+}
+.orderDetailsTableClient {
+  text-align: center;
+}
+// for mobile
+@media (max-width:786px) {
+  .orderDetailsTableDiv {
+    overflow-x: scroll;
+  }  
+}
+
+.orderDetailsOrderList {
+  padding: 0 !important;
+}

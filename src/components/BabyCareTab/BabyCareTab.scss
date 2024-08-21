@@ -1,0 +1,29 @@
+.baby-care-tab {
+  .first-image {
+    width: 100%;
+    // padding: 0 1rem;
+  }
+  h2 {
+    border-bottom: 3px solid $primary-color;
+    padding-bottom: 0.25rem;
+    display: inline-block;
+    margin-bottom: 2rem;
+    @media #{$sm} {
+      margin-bottom: 1rem;
+      font-size: 28px;
+      font-weight: 500;
+    }
+  }
+  .detailed-content {
+    margin-top: 2rem;
+    @media #{$sm} {
+      margin-top: 1rem;
+    }
+    h4 {
+      color: $primary-color;
+    }
+    img {
+      width: 100%;
+    }
+  }
+}

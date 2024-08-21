@@ -1,0 +1,17 @@
+.accordion-item-wrap {
+  margin-bottom: 1rem;
+  .accordion-card {
+    border-radius: 0%;
+    border: 1px solid #eaeaea;
+    color: $heading-color;
+    font-family: $noto;
+    .accordion-card-header {
+      border-left: 5px solid $primary-color !important;
+      border: none;
+      cursor: pointer;
+      h6 {
+        margin: 0%;
+      }
+    }
+  }
+}

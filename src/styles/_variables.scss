@@ -1,0 +1,30 @@
+// Font Family
+$roboto: "Roboto", sans-serif;
+$noto: "Noto Sans JP", sans-serif;
+$arabic-font: "Droid Arabic Naskh", serif;
+
+// Colors ---------------
+$primary-color: #e65550;
+$secondary-color: #fedddc;
+$heading-color: #666;
+// $heading-color: #888888;
+$text-secondary: #666;
+$white: #ffffff;
+$lightgray: #f0f0f0;
+$mandy: #e65550;
+$brightsun: #ffc849;
+$spray: #61d6ef;
+$cornflower-blue: #6862ef;
+// Responsive Variables
+$xxl: "(min-width: 1600px)";
+$xl: "only screen and (min-width: 1200px) and (max-width: 1599px)";
+$lg: "only screen and (min-width: 992px) and (max-width: 1199px)";
+$md: "only screen and (min-width: 768px) and (max-width: 991px)";
+$sm: "(max-width: 767px)";
+$lsm: "only screen and (min-width: 576px) and (max-width: 767px)";
+$xsm: "(max-width: 575px)";
+$tiny: "(max-width: 399px)";
+
+//spacing
+$v-sp-lg: 2rem;
+$v-sp-sm: 1rem;

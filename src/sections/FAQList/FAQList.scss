@@ -1,0 +1,32 @@
+.faq-list-section {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  @media #{$sm} {
+    margin-top: 1rem;
+  }
+  h1 {
+    border-bottom: 3px solid $primary-color;
+    font-size: 36px;
+    font-family: $noto;
+    padding-bottom: 0.25rem;
+    display: inline-block;
+    margin-top: 0%;
+    margin-bottom: 2rem;
+    color: $heading-color;
+    @media #{$sm} {
+      font-size: 28px;
+      font-weight: 500;
+      margin-bottom: 1rem;
+    }
+  }
+  .card-body {
+    p {
+      @media #{$sm} {
+        text-align: justify;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+}

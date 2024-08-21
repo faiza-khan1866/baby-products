@@ -1,0 +1,43 @@
+.pregnancy-section {
+  margin-top: 3rem;
+  .pregnancy-content {
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px rgba($color: #000000, $alpha: 0.07);
+    text-align: center;
+    padding: 5%;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0px 0px 16px rgba($color: #000000, $alpha: 0.07);
+      background-color: #fedddc;
+      transition: background-color 0.3s;
+    }
+    .preg-text-wrap {
+      h1,
+      h2 {
+        border-bottom: 3px solid $primary-color;
+        color: $heading-color;
+        display: inline-block;
+        padding-bottom: 0.25rem;
+        margin-bottom: 0.67em;
+      }
+    }
+    .preg-image-wrap {
+      width: 150px;
+      height: 150px;
+      margin: auto;
+      .image {
+        // @extend .img-thumbnail;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+        // border: 1px solid $primary-color;
+        border-radius: 50%;
+        background-color: $white;
+      }
+    }
+  }
+  @media #{$sm} {
+    margin-top: auto;
+  }
+}

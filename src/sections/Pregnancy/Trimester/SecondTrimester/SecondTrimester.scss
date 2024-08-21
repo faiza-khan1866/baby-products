@@ -1,0 +1,46 @@
+.second-trimester-pregnancy-section {
+  margin-top: 2rem;
+  @media #{$sm} {
+    margin-top: 1rem;
+    text-align: justify;
+  }
+  .image-wrap {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    .image {
+      width: 100%;
+      height: 80%;
+      object-fit: contain;
+    }
+  }
+  .heading-wrap {
+    // padding-top: 3rem;
+    h2 {
+      color: $heading-color;
+      font-family: $noto;
+      margin-bottom: 1rem;
+      font-size: 24px;
+      span {
+        font-size: 36px;
+        color: $primary-color;
+        font-family: $noto;
+        @media #{$xsm} {
+          font-size: 28px;
+          font-weight: 500;
+        }
+      }
+      @media #{$xsm} {
+        font-size: 20px;
+      }
+    }
+    @media #{$xsm} {
+      padding-top: 0%;
+    }
+  }
+}

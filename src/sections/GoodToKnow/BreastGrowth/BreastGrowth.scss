@@ -1,0 +1,37 @@
+.breast-growth-section {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  .text-wrap {
+    h5 {
+      color: $heading-color;
+      font-family: $noto;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: $text-secondary;
+      font-family: $noto;
+      line-height: 2rem;
+    }
+    @media #{$sm} {
+      margin-top: 1rem;
+    }
+  }
+  .image-wrap {
+    width: 100%;
+    height: 100%;
+    .image {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      @media #{$sm} {
+        height: auto;
+      }
+    }
+    @media #{$sm} {
+      height: auto;
+    }
+  }
+  @media #{$sm} {
+    margin-top: 1rem;
+  }
+}

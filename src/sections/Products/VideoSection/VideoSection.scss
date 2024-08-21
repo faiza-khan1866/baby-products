@@ -1,0 +1,76 @@
+.video-section {
+  // background-color: $secondary-color;
+  background-color: #fff6da;
+  @include padding-vertical(2, "rem");
+  padding-bottom: 4rem;
+  position: relative;
+  color: $heading-color;
+  @media #{$sm} {
+    padding-bottom: 2rem;
+    padding-top: 1.6rem;
+  }
+  &::after {
+    content: "";
+    background-image: url(./../../../assets/images/wave_gray.png);
+    width: 100%;
+    height: 105px;
+    background-size: 100% 105px;
+    position: absolute;
+    bottom: -5px;
+    @media #{$sm} {
+      display: none;
+    }
+  }
+  @media #{$sm} {
+    &::after {
+      height: 100px;
+      background-size: 115% 100px;
+    }
+  }
+  .description {
+    .title,
+    h2,
+    h3,
+    h4,
+    h5 {
+      color: $primary-color;
+      @media #{$sm} {
+        font-size: 24px;
+      }
+    }
+    p {
+      color: $text-secondary;
+      font-size: 17px;
+      // font-weight: 300;
+      @media #{$sm} {
+        text-align: justify;
+      }
+    }
+    div {
+      color: $heading-color;
+    }
+    @media #{$sm} {
+      padding-bottom: 1rem;
+    }
+  }
+  .video {
+    .video-thumbnail {
+      background-size: cover;
+      height: 250px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      @media #{$sm} {
+        height: 210px;
+      }
+      .play-icon {
+        color: $primary-color;
+        cursor: pointer;
+        font-size: 48px;
+        //   &:hover{
+        //       box-shadow: 0 0 10px rgba($color: #000000, $alpha: .4);
+        //   }
+      }
+    }
+  }
+}

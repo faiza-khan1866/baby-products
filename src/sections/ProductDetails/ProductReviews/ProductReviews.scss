@@ -1,0 +1,24 @@
+.product-reviews {
+  @include padding-vertical(2, "rem");
+  .section-title-underlined {
+    padding-bottom: 2rem;
+    text-align: center;
+    h3 {
+      font-weight: 600;
+      color: $heading-color;
+      display: inline-block;
+      position: relative;
+      font-size: 28px;
+      font-weight: 500;
+      border-bottom: 3px solid $primary-color;
+      padding-bottom: 0.25rem;
+      // &::after {
+      //   content: "";
+      //   position: absolute;
+      //   transform: translate(-115%, 1100%);
+      //   width: 75%;
+      //   border-bottom: 4px solid $primary-color;
+      // }
+    }
+  }
+}

@@ -1,0 +1,52 @@
+.main-title {
+  @include padding-vertical(1.5, "rem");
+  font-size: 36px;
+  background: $mandy;
+  text-align: center;
+  @media #{$sm} {
+    font-size: 24px;
+    @include padding-vertical(1, "rem");
+  }
+  h1 {
+    font-size: 36px;
+    font-weight: normal;
+    color: $white;
+    text-transform: capitalize;
+    display: inline-block;
+    position: relative;
+    font-family: $noto;
+    width: 75%;
+    margin: 0;
+    @media #{$tiny} {
+      font-size: 32px;
+      width: auto;
+    }
+  }
+  p,
+  h2 {
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: $white;
+    display: inline-block;
+    position: relative;
+    font-family: $noto;
+    width: 75%;
+    // &::after {
+    //   content: "";
+    //   position: absolute;
+    //   transform: translate(-112.5%, 1200%);
+    //   width: 75%;
+    //   border-bottom: 4px solid $white;
+    // }
+    @media #{$sm} {
+      // &::after {
+      //   transform: translate(-112.5%, 900%);
+      // }
+    }
+  }
+}
+
+.arabic-direction .main-title h1 {
+  font-size: 40px;
+}

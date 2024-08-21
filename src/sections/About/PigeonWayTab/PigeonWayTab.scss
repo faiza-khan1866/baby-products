@@ -1,0 +1,152 @@
+.pigeon-way-tab {
+  color: $heading-color;
+  font-family: $noto;
+  padding-top: 2rem;
+  .row {
+    [class*="col-"] {
+      padding-left: 0;
+    }
+  }
+  .header {
+    position: relative;
+    // &::before {
+    //   content: "";
+    //   background-image: url(./../../../assets/images/shapes/pigeonwayoval.svg);
+    //   background-size: 100%;
+    //   background-repeat: no-repeat;
+    //   width: 250px;
+    //   height: 100%;
+    //   position: absolute;
+    //   top: -20px;
+    //   left: -20px;
+    // }
+    @media #{$sm} {
+      // &::before {
+      //   width: 200px;
+      //   top: -20px;
+      //   left: 0px;
+      // }
+    }
+    .title {
+      font-size: 32px;
+      margin-bottom: 0.67em;
+      // font-weight: bold;
+      color: $heading-color;
+      border-bottom: 3px solid $primary-color;
+      display: inline-block;
+      padding-bottom: 0.25rem;
+      font-weight: normal;
+    }
+    .sub-title {
+      font-size: 18px;
+    }
+    .description-text {
+      // margin-top: 1rem;
+      // font-weight: 300;
+      @media #{$sm} {
+        text-align: justify;
+      }
+    }
+  }
+  .content {
+    padding: 1rem 0;
+    @media #{$sm} {
+      padding-top: 1rem;
+    }
+    .philosophy {
+      .section-title {
+        position: relative;
+        .avatar {
+          color: $white !important;
+          background-color: $heading-color !important;
+          font-size: 2rem !important;
+        }
+      }
+      .love-text {
+        font-weight: 500;
+        color: $primary-color;
+        margin-top: 1rem;
+      }
+      .credo-text {
+        font-weight: 500;
+        color: $heading-color;
+        margin-top: 1rem;
+      }
+      .credo-line {
+        // font-size: 14px;
+      }
+    }
+    .values {
+      position: relative;
+      // &::before {
+      //   content: "";
+      //   background-image: url(./../../../assets/images/shapes/lightyellowoval.svg);
+      //   background-size: 100%;
+      //   background-repeat: no-repeat;
+      //   width: 150px;
+      //   height: 100%;
+      //   position: absolute;
+      //   top: -20px;
+      //   left: -20px;
+      // }
+      @media #{$sm} {
+        margin-top: 2rem;
+        // &::before {
+        //   left: 0px;
+        // }
+      }
+      .section-title {
+        position: relative;
+        .avatar {
+          color: $white !important;
+          background-color: $heading-color !important;
+          font-size: 2rem !important;
+        }
+      }
+      .checklist {
+        margin-top: 1rem;
+        p {
+          font-size: 14px;
+          display: flex;
+          align-items: center;
+          font-weight: 500;
+        }
+        .check-icon {
+          color: $white;
+          font-size: 18px;
+          // margin-right: 0.5rem;
+        }
+        .icon-pebble {
+          margin-right: 0.5rem;
+          padding: 0.125rem;
+          background-color: $primary-color;
+          // border-radius: 44% 56% 33% 67%/44% 54% 46% 56%;
+          border-radius: 41% 59% 44% 63% / 43% 43% 57% 57%;
+          // width: 40px;
+          // height: 40px;
+        }
+        .icon-pebble-Arabic {
+          margin-right: 0;
+          margin-left: 0.5rem;
+          padding: 0.125rem;
+          background-color: $primary-color;
+          // border-radius: 44% 56% 33% 67%/44% 54% 46% 56%;
+          border-radius: 41% 59% 44% 63% / 43% 43% 57% 57%;
+          // width: 40px;
+          // height: 40px;
+        }
+      }
+    }
+    .vision {
+      width: 100%;
+      @media #{$sm} {
+        margin-top: 2rem;
+        img {
+          width: 75%;
+          margin: auto;
+          display: block;
+        }
+      }
+    }
+  }
+}

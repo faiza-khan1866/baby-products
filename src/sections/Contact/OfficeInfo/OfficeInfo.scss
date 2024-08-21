@@ -1,0 +1,148 @@
+// .contact-page {
+//   .office-info {
+//     padding: 2rem 0;
+//     color: $heading-color;
+//     font-family: $noto;
+//     @media #{$sm} {
+//       padding-top: 1rem;
+//       padding-bottom: 1.5rem;
+//     }
+//     .section-title-underlined {
+//       margin-bottom: 2rem;
+//       @media #{$sm} {
+//         margin-bottom: 1rem;
+//       }
+//       h2 {
+//         // font-weight: 600;
+//         font-family: $noto;
+//         color: $heading-color;
+//         display: inline-block;
+//         position: relative;
+//         font-size: 36px;
+//         border-bottom: 3px solid $primary-color;
+//         padding-bottom: 0.25rem;
+//         // &::after {
+//         //   content: "";
+//         //   position: absolute;
+//         //   transform: translate(-115%, 1400%);
+//         //   width: 75%;
+//         //   border-bottom: 4px solid $primary-color;
+//         // }
+//         @media #{$sm} {
+//           font-size: 28px;
+//           font-weight: 500;
+//           // &::after {
+//           //   transform: translate(-115%, 1000%);
+//           // }
+//         }
+//       }
+//     }
+//     .location-detail {
+//       display: flex;
+//       font-size: 14px;
+//       margin-bottom: 2rem;
+//       position: relative;
+//       // &::before {
+//       //   content: "";
+//       //   background: url(./../../../assets/images/shapes/pinkcircle-small.svg)
+//       //     center no-repeat;
+//       //   width: 50px;
+//       //   height: 50px;
+//       //   position: absolute;
+//       //   top: -10px;
+//       //   z-index: -1;
+//       //   left: -20px;
+//       // }
+//       @media #{$sm} {
+//         margin-bottom: 1rem;
+//         // &::before {
+//         //   left: 0px;
+//         // }
+//       }
+//       
+//       .location-text {
+//         align-items: center;
+//         display: flex;
+//       }
+//       p {
+//         margin: 0;
+//       }
+//     }
+//     .email-detail {
+//       display: flex;
+//       font-size: 14px;
+//       position: relative;
+//       // &::before {
+//       //   content: "";
+//       //   background: url(./../../../assets/images/shapes/pinkcircle-small.svg)
+//       //     center no-repeat;
+//       //   width: 50px;
+//       //   height: 50px;
+//       //   position: absolute;
+//       //   top: -10px;
+//       //   z-index: -1;
+//       //   left: -20px;
+//       // }
+//       @media #{$sm} {
+//         // &::before {
+//         //   left: 0px;
+//         // }
+//       }
+//       .icon-wrapper {
+//         margin-right: 1rem;
+//         font-size: 24px;
+//       }
+//       .email-text {
+//         align-items: center;
+//         display: flex;
+//       }
+//       p {
+//         margin: 0;
+//       }
+//     }
+//     .map-wrapper {
+//       background-image: url(./../../../assets/images/shapes/map-large.svg);
+//       height: 100%;
+//       background-size: 100% 100%;
+//       @media #{$sm} {
+//         box-shadow: 0px 0px 6px #e6e6e6;
+//       }
+//       @media #{$sm} {
+//         margin-top: 0rem;
+//         padding-top: 125px;
+//       }
+//     }
+//   }
+// }
+
+// .icon-wrapper svg path {
+//   stroke: #8d8b8b;
+// }
+// .location-text {
+//   p {
+//     p {
+//       color: red !important;
+//       a {
+//         color: #7a7a7a !important;
+//       }
+//     }
+//   }
+// }
+
+.infoWithNumber {
+  p {
+    a {
+      color: #727272;
+    }
+  }
+}
+
+.icon-wrapper {
+    
+    svg {
+      path {
+        stroke: #666;
+        stroke-width: 1;
+      }
+    }
+  }

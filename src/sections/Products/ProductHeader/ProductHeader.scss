@@ -1,0 +1,30 @@
+.product-header {
+  background-size: 100%;
+  // background-position: center;
+  // background-position: center -200px;
+  background-position: center -250px;
+  height: calc(100vh - 100px);
+  position: relative;
+  .main-title {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(
+      $color: $primary-color,
+      $alpha: 0.7
+    );
+    // @include padding-vertical(2,'rem');
+  }
+  @media #{$sm} {
+    height: calc(25vh - 100px);
+    background-position: center -100px;
+    background-repeat: no-repeat;
+  }
+  @media #{$md} {
+    height: calc(50vh - 100px);
+    background-position: center -100px;
+  }
+  @media #{$lg} {
+    background-position: center -180px;
+  }
+}

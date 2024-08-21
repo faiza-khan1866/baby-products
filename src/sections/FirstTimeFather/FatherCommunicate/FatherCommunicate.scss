@@ -1,0 +1,50 @@
+.father-communicate-section {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  .row-reverse-wrap {
+    @media #{$sm} {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .text-wrap {
+      h5 {
+        color: $primary-color;
+        font-family: $noto;
+        margin-bottom: 1rem;
+        @media #{$sm} {
+          margin-top: 0.3rem;
+        }
+      }
+      p {
+        color: $text-secondary;
+        font-family: $noto;
+        @media #{$sm} {
+          text-align: justify;
+        }
+        // line-height: 2rem;
+      }
+    }
+    .image-wrap {
+      width: 100%;
+      height: 320px;
+      overflow: hidden;
+      border-radius: 6px;
+      .image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        @media #{$sm} {
+          height: auto;
+        }
+      }
+      @media #{$sm} {
+        margin: 1rem 0%;
+        height: auto;
+      }
+    }
+  }
+  @media #{$sm} {
+    margin-top: 0%;
+    margin-bottom: 1rem;
+  }
+}

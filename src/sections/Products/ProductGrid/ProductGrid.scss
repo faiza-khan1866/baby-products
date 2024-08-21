@@ -1,0 +1,20 @@
+.products-grid {
+  .pagination-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    .page-item {
+      .page-link {
+        color: $primary-color;
+      }
+      &.active {
+        .page-link {
+          color: $white;
+          background-color: $primary-color;
+          border-color: $primary-color;
+        }
+      }
+    }
+  }
+}
